@@ -31,18 +31,19 @@ a{
 }*/
 body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 .headr-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4D5AE5;
 }
 .headr-logo-blue{
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .headr-main{
     font-weight: 500;
@@ -57,14 +58,15 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal
 }
-.main-sec1{
+.main-seca{
     background: #2e2f42;
 }
 .main-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -76,8 +78,10 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color: #404BBF;
+    cursor: pointer;
 }
-.sec2-main {
+.secb-main {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -85,7 +89,7 @@ body{
     color: #2e2f42;
 }
     
-.sec2-text {
+.secb-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -104,42 +108,47 @@ body{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.sec3-main { 
+.secc-main { 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #F4F4FD;
+    text-transform: capitalize;
 }
 
-.sec3-img-main {
+.secc-img-main {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #F4F4FD;
 }
 
-.sec3-img-text {
+.secc-img-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    background-color: #F4F4FD;
 }
-.sec4-main {
+.secd-main {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.sec4-img-main {
+.secd-img-main {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -147,7 +156,7 @@ body{
     color: #2e2f42;
 }
 
-.sec4-img-text {
+.secd-img-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -162,14 +171,14 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .foot-main-text {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .foot-text {
