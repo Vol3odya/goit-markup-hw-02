@@ -34,6 +34,9 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+address{
+    font-style: normal;
+}
 .headr-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -53,13 +56,18 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.headr-main:hover{
+    color: #404bbf;
+}
+.headr-main:focus{
+    color: #404bbf;
+}
 .head-info{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 .main-seca{
     background: #2e2f42;
@@ -81,6 +89,9 @@ body{
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
+}
+.main-btn:hover{
+    background-color: #404BBF;
 }
 .secb-main {
     font-weight: 500;
